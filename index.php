@@ -205,6 +205,13 @@ $imgShortSide = function ($seed) use ($imgSide) {
                         Affected players can swap places with another player of their choice.
                         <span style="font-size: 0.8em">(Here it can be nessesary to go clockwise and let players do their swap one at a time)</span>
                     </p>
+                    <hr>
+                    <p>
+                        If you want new Action Panels, you can define a start seed in the url by adding
+                        <a href="http://up-the-screen.martindilling.com/?seed=1337">?seed=yourseednumber</a>.
+                        <br>
+                        You can see the seeds used in the header of each page with the Action Panels.
+                    </p>
                 </section>
             </div>
 
