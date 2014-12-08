@@ -74,7 +74,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
                                 <br>
                                 You need to print the Playfield, Game pieces and as many of the Action Panels
                                 you want to cut out (you need 3 of each kind per player plus some for the stack
-                                to keep having 3 on hand).
+                                to keep having 3 on hand). You also need a dice.
                                 <br>
                                 And it will probably also be a good idea to read the rules, or make some up yourself
                                 if that's how you roll ;)
@@ -100,7 +100,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
                 <section>
                     <div class="col2">
                         <p>
-                            Up the screen is a board game for 2-4 at all ages.
+                            Up the screen is a board game for 2-4 players at all ages.
                             The goal is simple: you start at the bottom of the screen,
                             and the goal is to get to your personal goal at the top.
                         </p>
