@@ -60,7 +60,16 @@ $imgShortSide = function ($seed) use ($imgSide) {
                                 but I hope this ended well anyway :)
                             </p>
                             <p>
-                                <i>Enjoy :D</i>
+                                <b>Enjoy :D</b>
+                            </p>
+                            <p>
+                                <i>
+                                    - by Martin Dilling-Hansen &lt;martindilling@gmail.com&gt;
+                                    <br>
+                                    <a href="http://martindilling.com" target="_blank">http://martindilling.com</a>
+                                    <br>
+                                    <a href="http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=40236">This entry on Ludum Dare site</a>
+                                </i>
                             </p>
                         </div>
                         <div class="col2">
