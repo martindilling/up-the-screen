@@ -179,6 +179,37 @@ $imgShortSide = function ($seed) use ($imgSide) {
 
 
 <!-- ==========================================================================
+   Actions
+   ========================================================================== -->
+
+            <div class="page">
+                <header class="title">
+                    Actions
+                </header>
+                <section>
+                    <p>
+                        There are only three different kinds of actions on the Action Panels.
+                        Below they are listed with their icon and a description of their effect.
+                    </p>
+                    <hr>
+                    <p>
+                        <img src="images/right.png" alt="Arrow action">
+                        Move affected players in the arrows direction.
+                    </p>
+                    <p>
+                        <img src="images/skip.png" alt="Skip action">
+                        Affected players are skipped at theur turn.
+                    </p>
+                    <p>
+                        <img src="images/swap.png" alt="Swap action">
+                        Affected players can swap places with another player of their choice.
+                        <span style="font-size: 0.8em">(Here it can be nessesary to go clockwise and let players do their swap one at a time)</span>
+                    </p>
+                </section>
+            </div>
+
+
+<!-- ==========================================================================
    Playfield
    ========================================================================== -->
 
