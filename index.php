@@ -51,13 +51,39 @@ $imgShortSide = function ($seed) use ($imgSide) {
                     Up the screen
                 </header>
                 <section>
-                    <div class="col2">
-                        <h1>About</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda expedita magni enim pariatur eaque rem eius nulla suscipit, a voluptatibus sunt odit ut est labore facere impedit velit doloribus ullam!</p>
+                    <div class="row clearfix">
+                        <div class="col2">
+                            <h1>About</h1>
+                            <p>
+                                This is my entry for the <a href="http://ludumdare.com/" target="_blank">Ludum Dare 31</a>.
+                                I decided to make a boardgame after struggling way to long to find a good idea,
+                                but I hope this ended well anyway :)
+                            </p>
+                            <p>
+                                <i>Enjoy :D</i>
+                            </p>
+                        </div>
+                        <div class="col2">
+                            <h1>Getting started</h1>
+                            <p>
+                                Print - Cut - Play
+                            </p>
+                            <p>
+                                Yeah I'm sorry, it requires a little efford on your side to try out this game,
+                                but I hope it's worth it ;)
+                                <br>
+                                You need to print the Playfield, Game pieces and as many of the Action Panels
+                                you want to cut out (you need 3 of each kind per player plus some for the stack
+                                to keep having 3 on hand).
+                                <br>
+                                And it will probably also be a good idea to read the rules, or make some up yourself
+                                if that's how you roll ;)
+                            </p>
+                        </div>
                     </div>
-                    <div class="col2">
-                        <h1>Getting started</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda expedita magni enim pariatur eaque rem eius nulla suscipit, a voluptatibus sunt odit ut est labore facere impedit velit doloribus ullam!</p>
+                    <div style="text-align:center;">
+                        <br>
+                        <img src="images/picture.jpg" alt="Picture of the game" width="653" height="367">
                     </div>
                 </section>
             </div>
@@ -110,7 +136,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
                             The first player (you might choose this by throwing the dice and
                             letting the highest number start) throws the dice and moves their
                             game piece in the direction it is pointing. The arrow you land on
-                            indicates on which boarder you shall place an Action Panel
+                            indicates on which border you shall place an Action Panel
                             (placing one is obligatory). You have three opportunities – the three
                             matching Action Panels you hold in your hand – and you will want to
                             choose the one that either gives the best outcome for you or the
@@ -126,7 +152,8 @@ $imgShortSide = function ($seed) use ($imgSide) {
                             exact time the panel is placed – after that, the panel is
                             discarded and the game goes on (put all discarded Action Panels
                             in a pile, so that you can mix them together and draw from it
-                            if you run low on Action Panels).
+                            if you run low on Action Panels). If it gets nessesary the actions
+                            will get applied clockwise starting with the player placing the Action Panel.
                             <br>
                             For example, you might want to give yourself an arrow pointing
                             upwards, so that you will get closer to your goal, and give your
@@ -135,6 +162,11 @@ $imgShortSide = function ($seed) use ($imgSide) {
                             something bad for yourself or good for your enemy. The more players
                             you are, the more difficult is it to do something that
                             will only be good for you.
+                        </p>
+                        <p>
+                            It's not possible to be two players on one field, if you move to a field
+                            where a player is standing, you knock thatplayer down on the row below.
+                            (the exception to this is if cause the first row).
                         </p>
                         <p>
                             When you reach the top row, your goal is merely to hit your goal
