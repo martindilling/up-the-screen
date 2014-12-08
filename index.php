@@ -1,6 +1,6 @@
 <?php
 
-// require "bootstrap.php";
+$seed = isset($_GET['seed']) ? $_GET['seed'] : '1';
 
 $imgSide = function ($side, $seed, $width, $height, $class) {
     $attrSrc    = "src='image.php?side={$side}&seed={$seed}'";
@@ -243,7 +243,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
    Long Action Panels
    ========================================================================== -->
 
-            <div class="page"> <?php  $startSeed = 1; $count = 6;  ?>
+            <div class="page"> <?php  $startSeed = 1+$seed; $count = 6;  ?>
                 <header>
                     Long Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -255,7 +255,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
             </div>
 
 
-            <div class="page"> <?php  $startSeed = 7; $count = 6;  ?>
+            <div class="page"> <?php  $startSeed = 7+$seed; $count = 6;  ?>
                 <header>
                     Long Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -267,7 +267,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
             </div>
 
 
-            <div class="page"> <?php  $startSeed = 13; $count = 6;  ?>
+            <div class="page"> <?php  $startSeed = 13+$seed; $count = 6;  ?>
                 <header>
                     Long Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -279,7 +279,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
             </div>
 
 
-            <div class="page"> <?php  $startSeed = 19; $count = 6;  ?>
+            <div class="page"> <?php  $startSeed = 19+$seed; $count = 6;  ?>
                 <header>
                     Long Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -295,7 +295,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
    Short Action Panels
    ========================================================================== -->
 
-            <div class="page"> <?php  $startSeed = 1; $count = 12;  ?>
+            <div class="page"> <?php  $startSeed = 1+$seed; $count = 12;  ?>
                 <header>
                     Short Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -307,7 +307,7 @@ $imgShortSide = function ($seed) use ($imgSide) {
             </div>
 
 
-            <div class="page"> <?php  $startSeed = 13; $count = 12;  ?>
+            <div class="page"> <?php  $startSeed = 13+$seed; $count = 12;  ?>
                 <header>
                     Short Action Panels <small>Seeds: <?= $startSeed . '-' . ($startSeed+$count-1) ?></small>
                 </header>
@@ -321,9 +321,8 @@ $imgShortSide = function ($seed) use ($imgSide) {
 
         </div>
 
-        <!-- Add your site or application content here -->
 
-
+        <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
